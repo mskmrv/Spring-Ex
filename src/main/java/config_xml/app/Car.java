@@ -1,9 +1,11 @@
 package config_xml.app;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("car")
+@Scope("prototype")
 public class Car {
     @Autowired
     private CarEngine carEngine;
