@@ -6,7 +6,7 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="config_xml.app" />
+<!--    <context:component-scan base-package="config_xml.app" />-->
     <!--    <bean id="carEngine" class="CarEngine" scope="prototype"/>-->
 
     <!--    <bean id="car" class="Car" scope="prototype">-->
