@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("config_xml.app")
 public class Config {
-    @Bean
+    @Bean(name = "car")
     public Car car() {
         return new Car();
     }
